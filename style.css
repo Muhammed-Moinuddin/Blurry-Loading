@@ -1,20 +1,24 @@
 ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
+    list-style-type: none;
     overflow: hidden;
-    background-color: #333;
+    background-color: darkgreen;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
 }
 li {
     float: left; /*Use float to get block elements to float next to each other*/
 }
 li a {
     display: block; /*Allows us to specify padding (and height, width, margins, etc. if you want)*/
-    color: white;
-    text-align: center;
     text-decoration: none;
-    padding: 14px 16px;  /*Specify some padding between each <a> element, to make them look good*/
+    color: black;
+    padding: 16px 24px; /*Specify some padding between each <a> element, to make them look good*/
+    text-align: center;
 }
 li a:hover {
-    background-color: black;
+    background-color: yellow;
 }
